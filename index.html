@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="main-wrapper">
+		<div class="form-wrapper" id="form">
+			<h1 class="form-header">
+				Введите показания воды
+			</h1>
+			<form action="#" class="form-form">
+				<div class="form-inside-wpapper">
+					<h2 class="form-lable">
+						Горячая
+					</h2>
+					<input type="text" class="form-input input1" placeholder="0000.00" pattern="[0-9]{4}">
+					<h2 class="form-lable">
+						Холодная
+					</h2>
+					<input type="text" class="form-input input2" placeholder="0000.00" pattern="[0-9]{4}">
+					<button class="form-button" id="button">
+						Отправить
+					</button>
+				</div>
+			</form>
+		</div>
+		<div class="success-wrapper" id="success">
+			<img src="images/success.png" class="success-img" alt="">
+			<h1 class="success-text">
+				Ваши показания  успешно отправлены!
+			</h1>
+			<a class="success-link" href="#">
+				Отправить другие показания
+			</a>
+		</div>	
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
